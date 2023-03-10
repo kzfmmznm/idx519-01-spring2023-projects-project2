@@ -36,3 +36,50 @@ nav > ul > li > a {
 section {
   clear: left;
 }
+
+/* Decorate table */
+table {
+  border-collapse: separate;
+}
+
+table th {
+  text-align: center;
+  width: 18%;
+  color: white;
+  background: darkgray;
+  border: 1px solid darkgray;
+  padding: 20px;
+}
+
+table th:first-child {
+  width: 10%;
+}
+
+table td {
+  text-align: center;
+  width: 18%;
+  border: 1px solid darkgray;
+  padding: 20px;
+}
+
+table td:first-child {
+  width: 10%;
+}
+
+.morning {
+  color: white;
+  background-color: #87ceeb;
+  opacity: 0.9;
+}
+
+.afternoon {
+  color: white;
+  background-color: #ffa500;
+  opacity: 0.8;
+}
+
+.evening {
+  color: white;
+  background-color: #191970;
+  opacity: 0.5;
+}
