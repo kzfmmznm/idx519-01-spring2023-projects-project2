@@ -1,6 +1,7 @@
 /* Use Optima and Helvetica */
 * {
   font-family: Helvetica, sans-serif;
+  background-color: #fcfcfc;
 }
 
 h1,
@@ -81,6 +82,10 @@ table td {
 
 table td:first-child {
   width: 10%;
+}
+
+table td:not(:first-child):hover {
+  background-color: lightseagreen;
 }
 
 .morning {
