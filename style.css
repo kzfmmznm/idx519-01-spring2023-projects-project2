@@ -22,6 +22,14 @@ h1 {
   font-size: 36px;
 }
 
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
 nav > ul {
   list-style-type: none;
   margin: 0;
@@ -39,6 +47,11 @@ nav > ul > li > a {
 
 section {
   clear: left;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
 }
 
 /* Decorate table */
@@ -86,4 +99,9 @@ table td:first-child {
   color: white;
   background-color: #191970;
   opacity: 0.5;
+}
+
+image,
+video {
+  width: 50%;
 }
