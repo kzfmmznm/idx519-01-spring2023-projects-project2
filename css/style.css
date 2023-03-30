@@ -4,18 +4,11 @@
   background-color: #fcfcfc;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   font-family: Optima;
 }
 
-h1,
-h2,
-h3 {
+h1,h2,h3 {
   font-weight: bold;
 }
 
@@ -31,19 +24,19 @@ h4 {
   font-size: 18px;
 }
 
-nav > ul {
+nav>ul {
   display: flex;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-nav > ul > li {
+nav>ul> li {
   position: relative;
   width: 33.3333%;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   display: block;
   padding: 20px 10px;
   color: #fff;
@@ -52,7 +45,7 @@ nav > ul > li > a {
   text-decoration: none;
 }
 
-nav > ul > li > a:hover {
+nav>ul>li>a:hover {
   background-color: lightseagreen;
 }
 
@@ -115,7 +108,6 @@ table td:not(:first-child):hover {
   opacity: 0.5;
 }
 
-image,
-video {
+image,video {
   width: 50%;
 }
