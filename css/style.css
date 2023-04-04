@@ -115,6 +115,10 @@ table td:not(:first-child):hover {
   opacity: 0.5;
 }
 
+/* For fixed width layout page */
+#section-travel {
+  width: 1000px;
+}
 image,video {
-  width: 50%;
+  width: 500px;
 }
