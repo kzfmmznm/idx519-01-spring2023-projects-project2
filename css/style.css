@@ -1,7 +1,6 @@
 /* Use Optima and Helvetica */
 * {
   font-family: Helvetica, sans-serif;
-  background-color: #fcfcfc;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -24,25 +23,32 @@ h4 {
   font-size: 18px;
 }
 
-nav>ul {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+nav {
+  background-color: darkslategray;
 }
 
-nav>ul> li {
-  position: relative;
-  width: 33.3333%;
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+}
+
+nav>ul>li {
+  width: 200px;
+  float: left;
 }
 
 nav>ul>li>a {
   display: block;
-  padding: 20px 10px;
-  color: #fff;
   background-color: darkslategray;
-  text-align: center;
+  color: white;
+  padding: 20px 10px;
   text-decoration: none;
+  text-align: center;
+  font-weight: bold;
 }
 
 nav>ul>li>a:hover {
@@ -51,6 +57,7 @@ nav>ul>li>a:hover {
 
 section {
   clear: left;
+  margin: 10px;
 }
 
 figure {
