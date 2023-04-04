@@ -67,6 +67,46 @@ figure {
   padding: 0;
 }
 
+#myname_wrapper_label {
+  float: left;
+  width: 20%;
+}
+
+#myphoto_wrapper_label {
+  float: left;
+  width: 20%;
+}
+
+#name_photo_wrapper {
+  clear: left;
+}
+
+#myname_wrapper {
+  float: left;
+  width: 20%;
+}
+
+#myphoto_wrapper {
+  float: left;
+  width: 20%;
+}
+
+#work_experience {
+  clear: left;
+}
+
+#image_travel {
+  float: left;
+}
+
+#video_travel {
+  float: left;
+}
+
+footer {
+  clear: left;
+}
+
 /* Decorate table */
 table {
   border-collapse: separate;
